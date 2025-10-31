@@ -1,5 +1,5 @@
 var updates = [
-    {message: "Welcome to the 3rd official release of Andyum!"}
+    {message: "Welcome to the 1st official release of Proxy V1!"}
 ];
 var updatespage = document.getElementById("updatespage");
 for(let item of updates) {
@@ -10,3 +10,4 @@ for(let item of updates) {
     a.appendChild(title);
     updatespage.appendChild(a);
 }
+
