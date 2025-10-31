@@ -34,7 +34,7 @@ function titleSet(text) {
     
     else {
         localStorage.removeItem("title");
-        document.title = "Zaluea";
+        document.title = "Proxy Bypass";
     }
 }
 
@@ -47,4 +47,5 @@ function icoSet(text1) {
 function reset() {
     localStorage.removeItem('title');
     window.location.href = "";
+
 }
